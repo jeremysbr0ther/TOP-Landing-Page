@@ -1,0 +1,21 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    height: 24px;
+    color: #e5e7eb;
+    display: flex;
+    list-style: none;
+    margin-right: 150px;
+}
+
+img {
+    color: #f9faf8;
+    height: 24px;
+    font-weight: bold;
+    margin-left: 150px;
+}
