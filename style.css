@@ -90,17 +90,43 @@ li {
 /* Second container */
 
 .second-container {
-    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.some {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
 .subtext {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 50px;
+}
+
+.boxx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    background-color: white;
+    border-style: solid;
+    border-color: #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-width: 2px;
+    margin-bottom: 10px;
+    
 }
 
 
