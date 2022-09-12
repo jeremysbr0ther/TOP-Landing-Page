@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -18,4 +23,46 @@ img {
     height: 24px;
     font-weight: bold;
     margin-left: 150px;
+}
+
+.first-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.third-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
 }
